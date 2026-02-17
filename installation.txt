@@ -1,0 +1,21 @@
+For this proyect, you have to install a virtual environment to install all the package you need there. Then, create a JupyterNotebook kernel to run the notebook
+
+--- Create the virtual environment
+
+python -m venv venv
+
+--- Activate the virtual environment (Linux)
+source ./venv/bin/activate
+
+--- Activate the virtual environment (Windows)
+\venv\Scripts/\ctivate
+
+pip install ipykernel
+
+python -m ipykernel install --user --name=Gianluca_kernel
+
+pip install ipywidgets
+
+---and install all the package you need
+
+pip install numpy pandas matplotlib scikit-learn geojson geopandas folium networkx osmnx 
